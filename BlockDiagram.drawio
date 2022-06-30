@@ -36,8 +36,8 @@
                 <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="14" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="i = 0&lt;br&gt;temp = new string array[length]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="470" y="140" width="190" height="60" as="geometry"/>
+                <mxCell id="14" value="i = 0&lt;br&gt;tempArray = new string array[length]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="160" width="220" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="16" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -62,22 +62,22 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="initialArray[i] = Console Input&lt;br&gt;i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="18" value="tempArray[i] = Console Input&lt;br&gt;i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="477.5" y="410" width="175" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Return temp" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="670" y="265" width="90" height="30" as="geometry"/>
+                <mxCell id="22" value="Return tempArray" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="265" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="24" target="25" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Method&lt;br&gt;FillArrayWith0to3CharsElements(intialArray)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="24" value="string array method&lt;br&gt;FillArrayWith0to3CharsElements(initialArray)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="420" y="510" width="320" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="25" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="length = intialArray length&lt;br&gt;tempArray = new string array [0]&lt;br&gt;i = 0&lt;br&gt;j = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="25" value="length = initialArray length&lt;br&gt;tempArray = new string array [0]&lt;br&gt;i = 0&lt;br&gt;j = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="460" y="620" width="240" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="Yes" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="27" target="30" edge="1">
@@ -137,7 +137,7 @@
                 <mxCell id="48" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="Method&lt;br&gt;string PrintArray(array[])" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="46" value="string method&lt;br&gt;PrintArray(array[])" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="135" y="540" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="47" target="49" edge="1">

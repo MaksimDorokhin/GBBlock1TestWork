@@ -12,3 +12,18 @@ string[] InputStringArray(int length)
     }
     return tempArray;
 }
+string[] FillArrayWith0to3CharsElements(string[] initialArray)
+{
+    int length = initialArray.Length;
+    string[] tempArray = new string[length];
+    int j = 0;
+    for (int i = 0; i < length; i++)
+    {
+        if (initialArray[i].Length <= 3)
+        {
+            tempArray[j] = initialArray[i];
+            j++;
+        }
+    }
+    return tempArray;
+}
