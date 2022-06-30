@@ -27,3 +27,11 @@ string[] FillArrayWith0to3CharsElements(string[] initialArray)
     }
     return tempArray;
 }
+string PrintArray(string[] array)
+{
+    int length = array.Length;
+    string temp = string.Empty;
+    for (int i = 0; i < length; i++)
+        temp = temp + $"{array[i]} ";
+    return temp;
+}
