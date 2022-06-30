@@ -1,2 +1,6 @@
-# GBBlock1TestWork
-Test work after 3 months of study in GeekBrains and finishing 1st block
+# Контрольная работа по результатам 1-го блока обучения в GeekBrains по программе "Разработчик"
+## Описание
+
+* В данном репозитории содержатся все файлы контрольной работы.
+* **BlockDiagram.drawio** - файл DRAW IO с редактируемой блок-схемой проекта.
+* **BlockDiagram.png** - готовая блок-схема в PNG основного кода и созданных методов.
